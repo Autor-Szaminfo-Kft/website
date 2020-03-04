@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 
 import Menu from './menu';
 import Members from './members';
+import Testimonials from "./testimonials";
 
 const HomePage = () => {
     return (
@@ -26,7 +27,7 @@ const HomePage = () => {
             </div>
             <div className='row'>
                 <div className='col mb-1 pt-4 pb-4 section'>
-                    <h1>Miért dolgozz velünk</h1>
+                    <h1 className='mt-3 mb-4'>Miért dolgozz velünk</h1>
                     <ul>
                         <li>Szeretünk személyes beszélgetéssel kezdeni minden projektünket, hogy pontosan megismerhessük az igényeidet és te is megismerhess minket</li>
                         <li>A fejlesztés első napjától élesben követheted weboldalad készültségi fokát egy speciális rendszeren keresztül</li>
@@ -38,12 +39,13 @@ const HomePage = () => {
             </div>
             <div className='row'>
                 <div className='col mb-1 pt-4 pb-4 section'>
-                    <h1>Rólunk mondták</h1>
+                    <h1 className='mt-3 mb-4'>Rólunk mondták</h1>
+                    <Testimonials />
                 </div>
             </div>
             <div className='row'>
                 <div className='col mb-1 pt-4 pb-4 section'>
-                    <h1>Csapatunk</h1>
+                    <h1 className='mt-3 mb-4'>Csapatunk</h1>
                     <div className='row justify-content-center'>
                         <Members />
                     </div>
