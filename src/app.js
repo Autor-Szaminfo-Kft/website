@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 
-import ExamplePage from './example/components/ExamplePage';
+import HomePage from './home/components/page';
 
-export default class App extends Component {
-    render(){
-        return(
-            <Switch>
-                <Route path='/' component={ExamplePage} />
-            </Switch>
-        );
-    }
-}
+const Application = () => {
+    return(
+        <Switch>
+            <Route path='/' component={HomePage} />
+        </Switch>
+    );
+};
+
+export default Application;
