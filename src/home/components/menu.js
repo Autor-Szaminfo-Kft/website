@@ -10,11 +10,15 @@ class Menu extends Component {
         this.state = {
             items: [
                 {
-                    label: 'rólunk',
-                    url: '/rolunk'
+                    label: 'miért dolgozz velünk',
+                    url: '/miert'
                 },
                 {
-                    label: 'munkáink',
+                    label: 'rólunk mondták',
+                    url: '/velemenyek'
+                },
+                {
+                    label: 'csapatunk',
                     url: '/munkaink'
                 }
             ]
