@@ -9,6 +9,11 @@ import '../style/basic.scss';
 import '../style/hexagon.scss';
 
 require('bootstrap/dist/js/bootstrap');
+import $ from 'jquery';
+
+$(function () {
+    $('[data-toggle="popover"]').popover()
+});
 
 if (module.hot) {
     module.hot.accept();

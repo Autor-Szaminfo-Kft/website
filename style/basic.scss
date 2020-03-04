@@ -1,6 +1,6 @@
 $grid-gutter-width: 14px;
-$h1-font-size: 24px;
-$h2-font-size: 22px;
+$h1-font-size: 1.7rem;
+$h2-font-size: 1.0rem;
 $body-bg: white;
 
 @import "~bootstrap/scss/bootstrap.scss";
@@ -16,14 +16,26 @@ $font-title: 'basicFont', sans-serif;
   text-align: center;
   padding-top: 200px;
 
+  @media (max-width: 768px) {
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   h1 {
     font-family: $font-title;
-    font-size: 1.7rem;
+    line-height: 2.6rem;
   }
 
   button {
     font-size: 1.2rem;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 140px;
   }
+}
+
+h2 {
+  text-align: center;
+  font-weight: normal;
+  font-family: $font-title;
 }
