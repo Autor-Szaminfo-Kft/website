@@ -16,20 +16,17 @@ const Testimonials = () => {
         },
         {
             key: 2,
-            message: 'Összességében szerintem egy remek minőségű szolgáltatásról van szó, amihez jó áron\n' +
-                'juthatsz hozzá. Jelentős pozitívum, hogy akár a technikailag kevésbé hozzáértők is kényelmesen használhatják ezt a VPN-t',
+            message: 'Fantasztikusan fel tudták használni a pénzem, csak ajánlani tudom őket, adjatok nekik minél több borravalót!',
             rating: 5
         },
         {
             key: 3,
-            message: 'Összességében szerintem egy remek minőségű szolgáltatásról van szó, amihez jó áron\n' +
-                'juthatsz hozzá. Jelentős pozitívum, hogy akár a technikailag kevésbé hozzáértők is kényelmesen használhatják ezt a VPN-t',
+            message: 'A legjobb fejlesztő csapat akikkel valaha együtt dolgozni. Profik, segítőkészek és ráadásul kedvesek is. Minden a megbeszélt ütemben haladt, a határidő előtt kézhez kaptam a weboldalm.',
             rating: 5
         },
         {
             key: 4,
-            message: 'Összességében szerintem egy remek minőségű szolgáltatásról van szó, amihez jó áron\n' +
-                'juthatsz hozzá. Jelentős pozitívum, hogy akár a technikailag kevésbé hozzáértők is kényelmesen használhatják ezt a VPN-t',
+            message: 'Sosem dolgoztam még ennyire jó csapattal, köszönöm srácok! Ha a jövőben webes projektre lesz szükségem, biztosan őket fogom újra felhívni.',
             rating: 5
         }
     ];
