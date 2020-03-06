@@ -3,7 +3,8 @@ import { connect } from 'react-redux';
 
 import Menu from './menu';
 import Members from './members';
-import Testimonials from "./testimonials";
+import Testimonials from './testimonials';
+import Services from './services';
 
 const HomePage = () => {
     return (
@@ -16,7 +17,7 @@ const HomePage = () => {
             <div className='row'>
                 <div className='col mb-1 pt-4 pb-4'>
                     <div id='title'>
-                        <h1>Weboldalakat fejlesztünk. Szükséged van egyre?</h1>
+                        <h1>Webalkalmazásokat fejlesztünk. Szükséged van egyre?</h1>
                         <button type="button" className='btn btn-primary'
                                 data-container="body" data-toggle="popover"
                                 data-placement="bottom"
@@ -27,14 +28,7 @@ const HomePage = () => {
             </div>
             <div className='row'>
                 <div className='col mb-1 pt-4 pb-4 section'>
-                    <h1 className='mt-3 mb-4'>Miért dolgozz velünk</h1>
-                    <ul>
-                        <li>Szeretünk személyes beszélgetéssel kezdeni minden projektünket, hogy pontosan megismerhessük az igényeidet és te is megismerhess minket</li>
-                        <li>A fejlesztés első napjától élesben követheted weboldalad készültségi fokát egy speciális rendszeren keresztül</li>
-                        <li>Folyamatos a kommunikáció a közös munka során és biztosra veheted, hogy nem szívódunk fel a projekt felénél</li>
-                        <li>Tőlünk bármikor bármit kérdezhetsz, nem számít mennyire vagy képben technikailag</li>
-                        <li>Üzemeltetésben is segítünk ha szeretnéd, nem engedjük el a kezed amikor elkészült amit kértél tőlünk</li>
-                    </ul>
+                    <Services />
                 </div>
             </div>
             <div className='row'>

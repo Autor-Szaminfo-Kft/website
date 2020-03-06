@@ -1,6 +1,10 @@
+$container-max-widths: (
+  md: 1300px
+);
 $grid-gutter-width: 14px;
 $h1-font-size: 1.8rem;
 $h2-font-size: 1.0rem;
+$h3-font-size: 1.2rem;
 $body-bg: white;
 
 @import "~bootstrap/scss/bootstrap.scss";
@@ -11,6 +15,16 @@ $body-bg: white;
 };
 
 $font-title: 'basicFont', sans-serif;
+
+.logo {
+  width: 150px;
+  height: 30px;
+
+  @media (min-width: 768px) {
+    width: 198px;
+    height: 40px;
+  }
+}
 
 #title {
   text-align: center;
@@ -52,4 +66,16 @@ h2 {
   svg {
     color: #e1dc00;
   }
+}
+
+.service {
+  img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+.title {
+  min-height: 100px;
+  background: red;
 }

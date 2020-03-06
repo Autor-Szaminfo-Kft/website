@@ -44,7 +44,7 @@ class Menu extends Component {
             <div className="container pl-0 pr-0" id="menu">
                 <nav className="navbar navbar-expand-lg navbar-light">
                     <Link className="navbar-brand mr-4" to="/">
-                        <img src="/img/logo.png" width="40" height="40" className="d-inline-block align-center mb-1 mr-3" alt="" /> Autor
+                        <img src="/img/webnetik-s.png" className="d-inline-block align-center mb-1 mr-3 logo" alt="Webnetik" />
                     </Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"

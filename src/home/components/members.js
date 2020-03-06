@@ -4,7 +4,7 @@ const Members = () => {
     const members = [
         {
             name: 'Újfalusi Melinda',
-            img: 'empty.png'
+            img: 'meli.png'
         },
         {
             name: 'Csejtei Dávid',
