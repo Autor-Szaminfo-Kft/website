@@ -23,7 +23,7 @@ const services = () => {
             img: 'happy.png'
         },
         {
-            title: 'Hosszú távú együttműködés',
+            title: 'Együttműködés',
             description: 'Üzemeltetésben is segítünk ha szeretnéd, nem engedjük el a kezed amikor elkészült amit kértél tőlünk',
             img: 'together.png'
         }

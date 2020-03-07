@@ -62,9 +62,50 @@ h2 {
   }
 }
 
+.signature {
+
+}
+
 .testimonial {
   svg {
     color: #e1dc00;
+  }
+
+  > p:last-of-type {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .dot {
+    height: 25px;
+    width: 25px;
+    background-color: rgba(251, 203, 3, 0.81);
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid rgba(16, 208, 255, 0.22);
+  }
+
+  //background: #ccc;
+
+  .speech-bubble {
+    position: relative;
+    background: rgba(16, 208, 255, 0.22);
+    border-radius: .2em;
+    box-shadow: 2px 2px 6px #888888;
+  }
+
+  .speech-bubble:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 0;
+    height: 0;
+    border: 14px solid transparent;
+    border-top-color: rgba(16, 208, 255, 0.22);
+    border-bottom: 0;
+    margin-left: -14px;
+    margin-bottom: -14px;
   }
 }
 
