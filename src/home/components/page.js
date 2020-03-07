@@ -5,6 +5,7 @@ import Menu from './menu';
 import Members from './members';
 import Testimonials from './testimonials';
 import Services from './services';
+import Projects from './projects';
 
 const HomePage = () => {
     return (
@@ -33,16 +34,22 @@ const HomePage = () => {
             </div>
             <div className='row'>
                 <div className='col mb-1 pt-4 pb-4 section'>
-                    <h1 className='mt-3 mb-4'>Rólunk mondták</h1>
+                    <h1 className='mt-3 mb-4 ml-3'>A csapatunk</h1>
+                    <div className='row justify-content-center'>
+                        <Members />
+                    </div>
+                </div>
+            </div>
+            <div className='row'>
+                <div className='col mb-1 pt-4 pb-4 section'>
+                    <h1 className='mt-3 mb-4 ml-2'>Rólunk mondták</h1>
                     <Testimonials />
                 </div>
             </div>
             <div className='row'>
                 <div className='col mb-1 pt-4 pb-4 section'>
-                    <h1 className='mt-3 mb-4'>Csapatunk</h1>
-                    <div className='row justify-content-center'>
-                        <Members />
-                    </div>
+                    <h1 className='mt-3 mb-4 ml-2'>Legutóbbi munkáink</h1>
+                    <Projects />
                 </div>
             </div>
         </div>

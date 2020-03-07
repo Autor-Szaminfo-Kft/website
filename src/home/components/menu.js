@@ -11,15 +11,19 @@ class Menu extends Component {
             items: [
                 {
                     label: 'miért dolgozz velünk',
-                    url: '/miert'
+                    url: '/about'
                 },
                 {
                     label: 'rólunk mondták',
-                    url: '/velemenyek'
+                    url: '/testimonials'
                 },
                 {
                     label: 'csapatunk',
-                    url: '/munkaink'
+                    url: '/team'
+                },
+                {
+                    label: 'legutóbbi munkáink',
+                    url: '/references'
                 }
             ]
         }

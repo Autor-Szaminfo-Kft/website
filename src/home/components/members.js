@@ -7,16 +7,16 @@ const Members = () => {
             img: 'meli.png'
         },
         {
-            name: 'Csejtei Dávid',
-            img: 'me.png'
-        },
-        {
             name: 'Mecseki Péter',
             img: 'empty.png'
         },
         {
             name: 'Özkan Ferhat',
             img: 'empty.png'
+        },
+        {
+            name: 'Csejtei Dávid',
+            img: 'me.png'
         }
     ];
 

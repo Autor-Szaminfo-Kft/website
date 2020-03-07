@@ -6,7 +6,7 @@ import store, {history} from './store';
 
 import Application from './app';
 import '../style/basic.scss';
-import '../style/hexagon.scss';
+import '../style/projects-grid.scss';
 
 require('bootstrap/dist/js/bootstrap');
 import $ from 'jquery';
