@@ -120,3 +120,7 @@ h2 {
   min-height: 100px;
   background: red;
 }
+
+.nav-item > .active {
+  background-color: red;
+}

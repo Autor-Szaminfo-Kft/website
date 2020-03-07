@@ -28,13 +28,13 @@ const HomePage = () => {
                 </div>
             </div>
             <div className='row'>
-                <div className='col mb-1 pt-4 pb-4 section'>
+                <div className='col mb-1 pt-4 pb-4 section' id="about">
                     <Services />
                 </div>
             </div>
             <div className='row'>
                 <div className='col mb-1 pt-4 pb-4 section'>
-                    <h1 className='mt-3 mb-4 ml-3'>A csapatunk</h1>
+                    <h1 className='mt-3 mb-4 ml-3' id="team">A csapatunk</h1>
                     <div className='row justify-content-center'>
                         <Members />
                     </div>
@@ -42,13 +42,13 @@ const HomePage = () => {
             </div>
             <div className='row'>
                 <div className='col mb-1 pt-4 pb-4 section'>
-                    <h1 className='mt-3 mb-4 ml-2'>Rólunk mondták</h1>
+                    <h1 className='mt-3 mb-4 ml-2' id="testimonials">Rólunk mondták</h1>
                     <Testimonials />
                 </div>
             </div>
             <div className='row'>
                 <div className='col mb-1 pt-4 pb-4 section'>
-                    <h1 className='mt-3 mb-4 ml-2'>Legutóbbi munkáink</h1>
+                    <h1 className='mt-3 mb-4 ml-2' id="projects">Legutóbbi munkáink</h1>
                     <Projects />
                 </div>
             </div>

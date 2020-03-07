@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Link } from 'react-router-dom';
+
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class Menu extends Component {
 
@@ -11,19 +12,19 @@ class Menu extends Component {
             items: [
                 {
                     label: 'miért dolgozz velünk',
-                    url: '/about'
+                    url: 'about'
                 },
                 {
                     label: 'rólunk mondták',
-                    url: '/testimonials'
+                    url: 'testimonials'
                 },
                 {
                     label: 'csapatunk',
-                    url: '/team'
+                    url: 'team'
                 },
                 {
                     label: 'legutóbbi munkáink',
-                    url: '/references'
+                    url: 'projects'
                 }
             ]
         }
@@ -37,7 +38,13 @@ class Menu extends Component {
 
             return (
                 <li className={itemClassName} key={item.url}>
-                    <Link className="nav-link" to={item.url}>{itemLabel}{activeItemMarker}</Link>
+                    <Link activeClass="active"
+                          className="nav-link"
+                          to={item.url}
+                          spy={true}
+                          smooth={true}
+                          offset={-70}
+                          duration= {500}>{itemLabel}{activeItemMarker}</Link>
                 </li>
             );
         });
